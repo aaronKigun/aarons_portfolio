@@ -1,5 +1,5 @@
-# Build and Deploy a Fantastic 3D Portfolio Website with Three.js and React.js
-![Aaron's Portfolio](https://ibb.co/vmZ32H0)
+# Build and Deploy a Fantastic Portfolio Website with TailwindCSS and React.js
+![Aaron's Portfolio]([url=https://ibb.co/vmZ32H0][img]https://i.ibb.co/vmZ32H0/aaron-Portfolio.jpg[/img][/url])
 
 # React Three Fiber - The Perfect Fusion
 Combine the power of React with ThreeJS using React Three Fiber. This popular library unlocks a new dimension of creativity, enabling you to seamlessly integrate 3D graphics into your React projects.
