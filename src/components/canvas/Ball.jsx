@@ -1,6 +1,5 @@
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import { Mesh, SphereGeometry, MeshStandardMaterial } from 'three';
 import {
   Decal,
   Float,
@@ -8,6 +7,7 @@ import {
   Preload,
   useTexture,
 } from "@react-three/drei";
+
 import CanvasLoader from "../Loader";
 
 const Ball = (props) => {
@@ -15,13 +15,14 @@ const Ball = (props) => {
 
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
-      <ambientLight intensity={0.25} />
+      <ambientLight intensity={0.70} />
       <directionalLight position={[0, 0, 0.05]} />
-      <Mesh castShadow receiveShadow scale={2.75}>
-      <SphereGeometry args={[1, 32, 32]} />
-      <MeshStandardMaterial color='#fd7e14' polygonOffset polygonOffsetFactor={-5} flatShading />
-      <Decal position={[0, 0, 1]} rotation={[2 * Math.PI, 0, 6.25]} scale={1} map={decal} flatShading />
-    </Mesh>
+      <mesh castShadow receiveShadow scale={2.75}>
+  <sphereGeometry args={[1, 32, 32]} />
+  <meshStandardMaterial color='#383E56' polygonOffset polygonOffsetFactor={-5} flatShading />
+  <Decal position={[0, 0, 1]} rotation={[2 * Math.PI, 0, 6.25]} scale={1} map={decal} flatShading />
+</mesh>
+
     </Float>
   );
 };
