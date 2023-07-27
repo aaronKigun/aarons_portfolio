@@ -177,8 +177,8 @@ const testimonials = [
   },
   {
     testimonial:
-      "He skillfully crafted our law firm website, showcasing professionalism and expertise. Highly recommended!",
-    name: "Bar Izi Christopher Kigun",
+      "He skillfully crafted our law firm website, showcasing expertise.",
+    name: "Bar I.C.Kigun",
     designation: "Owner",
     company: "Urranden Solicitors",
     image:img2,
