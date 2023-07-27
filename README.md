@@ -1,5 +1,5 @@
 # Build and Deploy a Fantastic 3D Portfolio Website with Three.js, TailwindCSS and React.js
-![Aaron's Portfolio](https://i.ibb.co/7V2n7Xs/aaron-Portfolio.jpg)
+![Aaron's Portfolio](https://i.ibb.co/7V2n7Xs/aaron-Portfolio.jpg)(https://i.ibb.co/S6SWBJH/3d.jpg)
 
 ##Explore the World of ThreeJS
 Dive into the world of ThreeJS, a powerful 3D graphics library that empowers you to render and animate captivating 3D models. With hands-on projects, you'll learn how to bring your ideas to life and craft visually stunning web experiences.
