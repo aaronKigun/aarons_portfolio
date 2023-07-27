@@ -7,6 +7,7 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import TransitionEffect from './TransitionEffect';
+import BallCanvas from "./canvas/Ball";
 
 
 export {
@@ -19,4 +20,5 @@ export {
   Works,
   Feedbacks,
   Contact,
+  BallCanvas,
 };
